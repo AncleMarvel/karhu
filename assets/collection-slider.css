@@ -40,3 +40,51 @@
 .collection-slider__wrapper {
     padding: 60px 0 84px 60px;
 }
+
+
+@media (max-width: 1025px) {
+    .slick-slide img {
+        width: 90%;
+    }
+
+    .collection-slider__item {
+        height: auto;
+    }
+
+    .collection-slider__item__content-wrapper {
+        padding-right: 10%;
+        padding-top: 37%;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+    .collection-slider__wrapper {
+        padding: 16px 0 74px 16px;
+    }
+
+    .main-collection__img {
+        width: auto;
+        height: 500px;
+    }
+
+    .main-collection__img-wrapper {
+        padding-left: 80%;
+    }
+
+    .main-collection__heading {
+        font-size: 53px;
+        line-height: 60px;
+        letter-spacing: -0.03em;
+    }
+
+    .collection-slider__item_link {
+        width: 125px;
+        height: 48px;
+    }
+
+    .collection-slider__item__content-wrapper {
+        padding-bottom: 30px;
+    }
+}

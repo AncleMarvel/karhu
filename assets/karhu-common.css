@@ -36,3 +36,10 @@
     -ms-transform: scale(1.025);
     -o-transform: scale(1.025);
 }
+
+
+@media (max-width: 480px) {
+    .karhu-link {
+        width: 180px;
+    }
+}
