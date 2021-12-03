@@ -2,13 +2,13 @@
 
 <section class="main-collection">
     <div class="main-collection__img-wrapper">
-        <img src="{{ section.settings.img | img_url: 'medium' }}" alt="{{ section.settings.collection.title }}" class="main-collection__img">
+        <img src="{{ section.settings.img | img_url: 'master' }}" alt="{{ section.settings.collection.title }}" class="main-collection__img">
     </div>
     <div class="main-collection__content-wrapper">
         <h1 class="main-collection__heading">
             {{ section.settings.heading }}
         </h1>
-        <a href="{{ section.settings.collection.url }}" class="main-collection__link">
+        <a href="{{ section.settings.collection.url }}" class="karhu-link main-collection__link">
             Shop Collection
         </a>
     </div>
